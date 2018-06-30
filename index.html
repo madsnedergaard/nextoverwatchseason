@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -46,32 +47,52 @@
     <meta name="apple-mobile-web-app-title" content="App Title">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-    <link rel="stylesheet"  href="bulma.min.css">
-    <link rel="stylesheet"  href="app.css">
+    <link rel="stylesheet" href="bulma.min.css">
+    <link rel="stylesheet" href="app.css">
 
 </head>
+
 <body>
-    <section class="hero is-fullheight">
+    <section class="hero is-fullheight has-text-centered">
         <div class="hero-body">
             <div class="container has-text-centered">
-                <h1 class="title is-1">Overwatch Season 11 will start in</h1>
-                <h2 class="subtitle is-massive start-text">2 days</h2>
-                <p><strong>US:</strong> June 30 at 5pm PST/8pm EST</p>
-                <p><strong>EU:</strong> July 1 at 1am</p>
-                <!-- June 30 at 5pm PST/8pm EST. That’s July 1 at 1am BST for folks over in the UK.  -->
+                <img src="logo.svg" class="ow-logo" alt="Overwatch logo" />
+                <h1 class="title is-size-1-desktop is-size-2-mobile">Overwatch Season 11
+                    <span class="action">will start</span>
+                </h1>
+                <h2 class="subtitle is-massive start-text">soon</h2>
+            </div>
+        </div>
+        <div class="hero-foot">
+            <div class="container">
+
+                <nav class="level">
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading">US PST</p>
+                            <p class="title us-pst-time"></p>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading">UTC</p>
+                            <p class="title utc-time"></p>
+                        </div>
+                    </div>
+                    <div class="level-item has-text-centered">
+                        <div>
+                            <p class="heading">Your locale</p>
+                            <p class="title local-time"></p>
+                        </div>
+                    </div>
+                </nav>
+                <p class="is-size-7 is-italic">
+                    <a href="http://twitter.com/mads_nedergaard">Let me know</a> if you got a tip about next season</p>
             </div>
         </div>
     </section>
-    <!--
-    <section class="section">
-        Longer block
-    </section>-->
-    <script>
-        
-        var elem = document.querySelector('.start-text');
-        elem.innerText = '4 days';
-        elem.innerText = '5 hours';
-    </script>
-    <script src="app.js"></script> 
+    <script src="moment.min.js"></script>
+    <script src="app.js"></script>
 </body>
+
 </html>
