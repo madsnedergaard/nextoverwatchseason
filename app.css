@@ -1,5 +1,6 @@
 @font-face {
   font-family:"BigNoodleTitling Oblique";
+  font-display: fallback;
   src:url("fonts/big_noodle_titling_oblique.woff2") format("woff2"),
   url("fonts/big_noodle_titling_oblique.woff") format("woff");
   font-style:normal;font-weight:400;
