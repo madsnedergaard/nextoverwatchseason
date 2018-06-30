@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run inliner index.html > build/index.html"
+    "build": "cp moment.min.js dist/moment.min.js && inliner index.html > dist/index.html"
   },
   "repository": {
     "type": "git",
