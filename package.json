@@ -5,7 +5,9 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cp moment.min.js dist/moment.min.js && inliner --verbose index.html > dist/index.html"
+    "css": "uncss index.html > used.css",
+    "copy": "cp moment.min.js dist/moment.min.js",
+    "build": "npm run copy && inliner --verbose index.html > dist/index.html"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   },
   "homepage": "https://github.com/madsnedergaard/nextoverwatchseason#readme",
   "dependencies": {
-    "inliner": "^1.13.1"
+    "inliner": "^1.13.1",
+    "uncss": "^0.16.2"
   }
 }
