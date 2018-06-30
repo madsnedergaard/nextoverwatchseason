@@ -1,0 +1,26 @@
+{
+  "name": "nextoverwatchseason",
+  "version": "1.0.0",
+  "description": "When will next Overwatch season start?",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run inliner index.html > build/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madsnedergaard/nextoverwatchseason.git"
+  },
+  "keywords": [
+    "Overwatch"
+  ],
+  "author": "Mads Nedergaard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madsnedergaard/nextoverwatchseason/issues"
+  },
+  "homepage": "https://github.com/madsnedergaard/nextoverwatchseason#readme",
+  "dependencies": {
+    "inliner": "^1.13.1"
+  }
+}
