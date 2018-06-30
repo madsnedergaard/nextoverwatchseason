@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "css": "uncss index.html > used.css",
-    "copy": "cp moment.min.js dist/moment.min.js",
-    "build": "npm run copy && inliner --verbose index.html > dist/index.html"
+    "build": "inliner --verbose index.html > dist/index.html"
   },
   "repository": {
     "type": "git",
