@@ -13,7 +13,7 @@ elem.innerText = timeLeft;
 
 // Locale timezone dates
 var pstTime = document.querySelector('.us-pst-time');
-pstTime.innerText = moment(date).utc().utcOffset(-7).format('MMMM Do HA');
+pstTime.innerText = moment(date).utc().utcOffset(-7).format('MMMM Do hA');
 
 var utcTime = document.querySelector('.utc-time');
 utcTime.innerText = moment(date).utc().format('MMMM D HH:mm');
