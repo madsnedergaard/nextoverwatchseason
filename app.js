@@ -1,5 +1,5 @@
 // The magical timestamp
-var date = moment.unix(1535497200);
+var date = moment.unix(1535763600);
 
 var actionText = document.querySelector('.action');
 if (moment().isAfter(date)) {
