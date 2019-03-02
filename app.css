@@ -27,21 +27,9 @@ body {
 a {
   color: #fa9c1e;
 }
-.hero-foot {
-  margin-bottom: 1rem;
-}
-@media screen and (min-width: 769px) {
-.level-item {
-  max-width: 33%;
-}
-}
 @media screen and (max-width: 500px) {
   .hero-body {padding: 0.5rem;}
   .is-massive {
-    font-size: 4rem;
-    
+    font-size: 4rem;    
   } 
-  .level {
-    margin-bottom: 2rem;
-  }
 }

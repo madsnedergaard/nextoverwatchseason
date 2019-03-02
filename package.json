@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/madsnedergaard/nextoverwatchseason#readme",
   "dependencies": {
+    "http-server": "^0.11.1",
     "inliner": "^1.13.1",
     "uncss": "^0.16.2"
   }
